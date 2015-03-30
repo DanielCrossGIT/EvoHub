@@ -12,8 +12,11 @@ namespace Prueba_NET
         {
             //Primera prueba
             Console.WriteLine("Ingrese un numero");
-            int n = Console.ReadLine();
+            //Error corregio
+            int n = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Ingreso el numero: "+n);
+            //Detengo el programa para leer 
+            Console.ReadLine();
             //Fin de primera prueba
         }
     }
